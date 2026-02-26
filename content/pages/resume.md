@@ -1,4 +1,4 @@
-Title: Resume – Andrew Nemhard
+Title: Resume
 Slug: resume
 Save_as: resume.html
 URL: resume.html
