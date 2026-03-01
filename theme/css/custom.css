@@ -1,0 +1,12 @@
+#banner nav {
+    background: #000305;
+}
+
+#banner nav a:hover {
+    background: #1e3a8a;
+}
+
+#banner h1 a {
+    color: #1e3a8a;
+}
+
