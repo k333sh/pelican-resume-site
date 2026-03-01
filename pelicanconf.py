@@ -1,6 +1,7 @@
 AUTHOR = 'Iteoluwakisi'
 SITENAME = 'Oyewusi-Iteoluwakisis-A2-Site'
-SITEURL = ""
+SITEURL = "https://k333sh.github.io/pelican-resume-site"
+RELATIVE_URLS = True
 
 PATH = "content"
 
@@ -16,20 +17,19 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
+LINKS = ()
+
 
 # Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-)
+SOCIAL = ()
 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+STATIC_PATHS = ['extra']
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'theme/css/custom.css'}
+}
+
