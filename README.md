@@ -22,11 +22,13 @@ This README explains the technical steps taken and connects them to principles f
 ### 2. Creating Content in Markdown
 - Wrote `index.md` for the homepage.
 - Wrote `resume.md` transforming the full resume I had on me into a workable ".md" file.
+
 #### Formatting Resumes 
 - Copy into md the resume you have on your hands
 - Start to seperate into sections the different parts of the resume
 - Select and set headings in markdown using "#, ##, ###" to show the level of heading it is 
-- [linked here is a markdown tutorial that explains basic formatting tools](https://www.markdownguide.org/) 
+- Linked here is a markdown tutorial that explains basic formatting tools [markdownguide.org](https://www.markdownguide.org/) 
+
 ###
 - Added Pelican metadata (Title, Date, etc.) at the top of each file.
 - Used Markdown for clean, portable, version-controlled content.
@@ -47,5 +49,9 @@ This README explains the technical steps taken and connects them to principles f
 - You could also view the site locally in the termianal by running: 
    python -m pelican.server 
 
+## Updating and Committing Changes 
+While working on my Pelican site , I frequently needed to effect any changes I made to my files locally on my desktop . I took the following steps to ensure safe commissions 
+
+### Checking Project Status
 
   
