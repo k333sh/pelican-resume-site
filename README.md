@@ -3,6 +3,7 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Project Structure](#project-structure)
 - [Technical Steps](#technical-steps)
 - [Updating and Committing Changes](#updating-and-committing-changes)
 - [Frequently Asked Questions](#frequently-asked-questions)
