@@ -21,6 +21,16 @@
 This README explains the technical steps taken and connects them to principles from Andrew Etter’s *Modern Technical Writing*. a book I have recently read to understand how to make these types of instructions seeing as I have not done this in a while 
 
 ---
+## Project Structure
+
+After running `pelican-quickstart`, the project directory contains several important folders and files.
+
+- `content/` – Contains Markdown files that will become pages on the site.
+- `output/` – Stores the generated static HTML website.
+- `pelicanconf.py` – Main configuration file for the site.
+- `publishconf.py` – Configuration used when publishing the site online.
+
+The `content/` directory is the most regularly modified part of the project because it stores the pages written in Markdown. During the build process, Pelican reads these files and converts them into HTML pages that are placed in the `output/` directory. These HTML files are what visitors see when they access the website.
 
 ## Technical Steps
 
