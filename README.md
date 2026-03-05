@@ -1,4 +1,13 @@
-# PELICAN RESUME SITE AND HOW I DID IT AND HOW TO REPLICATE IT — Assignment 2 by Iteoluwakisi Oyewusi
+# PELICAN RESUME SITE HOW I DID IT AND HOW TO REPLICATE IT 
+# Assignment 2 by Iteoluwakisi Oyewusi
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Technical Steps](#technical-steps)
+- [Updating and Committing Changes](#updating-and-committing-changes)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [My Implementation Of Andrew Etters Book](#my-implementation-of-andrew-etters-book)
+
 
 ## Project Overview
 
