@@ -1,8 +1,15 @@
 # PELICAN RESUME SITE AND HOW I DID IT AND HOW TO REPLICATE IT — Assignment 2 by Iteoluwakisi Oyewusi
 
 ## Project Overview
-A static resume website built using Pelican, a Python-based static site generator. The site includes a homepage and a resume page written in Markdown and converted into HTML during the Pelican build process. The final site is deployed using GitHub Pages.  
-This README explains the technical steps taken and connects them to principles from Andrew Etter’s *Modern Technical Writing*. a book I have recently read to understand how to make these types of instructions
+
+**Technologies Used**
+
+- Static Site Generator: `Pelican`
+- Programming Language: `Python`
+- Markup Language: `Markdown`
+- Deployment Platform: `GitHub Pages`
+
+This README explains the technical steps taken and connects them to principles from Andrew Etter’s *Modern Technical Writing*. a book I have recently read to understand how to make these types of instructions seeing as I have not done this in a while 
 
 ---
 
@@ -45,13 +52,21 @@ This README explains the technical steps taken and connects them to principles f
 ### 4. Generating the Static Site
 - After I had confirmed I made whatever change I deemed necessary 
 - Ran this is my terminal:
-  python -m pelican content -s pelicanconf.py
+  `python -m pelican content -s pelicanconf.py`
 - You could also view the site locally in the termianal by running: 
-   python -m pelican.server 
+   `python -m pelican.server` 
 
 ## Updating and Committing Changes 
 While working on my Pelican site , I frequently needed to effect any changes I made to my files locally on my desktop . I took the following steps to ensure safe commissions 
 
 ### Checking Project Status
+- I made use of of the `git-status` keywords whenever I logged off my pc and wanted to assure the state of my files and folders 
+- I also used `git add .` to make sure I have not changed anything without pushing those changes to the github repository 
 
-  
+### Making Changes to the .MD files
+- I would have made all my changes to the md files at this point , then post `git add .` , I use `git commit -m "any meaninful phrase" ` to package my changes together for exportation to github 
+- Final step would be to move these to the github repo using `git push` to send our packaged changes to the repository 
+
+## Frequently Asked Questions
+
+## My Implementation Of Andrew Etters Book 
