@@ -10,8 +10,9 @@
 - [Updating and Committing Changes](#updating-and-committing-changes)
 - [Frequently Asked Questions](#frequently-asked-questions)
 - [My Implementation Of Andrew Etters Book](#my-Implementation-of-andrew-etters-principles-for-modern-technical-writing)
-- [Credits](#credits)
 - [Conclusion](#conclusion)
+- [Credits](#credits)
+
 
 ## Purpose
 The purpose of this project was to create a fully functional static resume website using Pelican , a static site generator to present the resume and document it appropriately using a lighthweight markup language like **Markdown** 
@@ -93,7 +94,7 @@ The `content/` directory is the most regularly modified part of the project beca
 While working on my Pelican site , I frequently needed to effect any changes I made to my files locally on my desktop . I took the following steps to ensure safe commissions 
 
 ### Checking Project Status
-- I made use of of the `git-status` keywords whenever I logged off my pc and wanted to assure the state of my files and folders 
+- I made use of of the `git status` keywords whenever I logged off my pc and wanted to assure the state of my files and folders 
 - I also used `git add .` to make sure I have not changed anything without pushing those changes to the github repository 
 
 ### Making Changes to the .MD files
@@ -123,6 +124,11 @@ While working on my Pelican site , I frequently needed to effect any changes I m
 
 - I also made use of the concept of localization , since waiting and planning for appropriate translations into as many languages as possible takes an excessive amount of time , I make the decision to use as plane a text as possible to make it easy to translate as well as avoiding meanings being present in complex formatting or images 
 
+## Conclusion
+In conclusion, I believe making a README is not just important but necessary for any good project. It helps keep information readily available for any audience, provides essential documentation, and can be easily customized by multiple parties by taking advantage of lightweight markup tools as mentioned.Alongside that, this project also demonstrates how combining static site generators, version control systems, and clear documentation practices can make projects easier to reproduce and maintain over time.Additionally, the resume and site generated were made easier by looking at documentation that exists because of those who came before me and were willing to take note of their procedures.
+
+
+
 ## Credits
 README was Peer Reviewed by fellow members of my assigned Foomatic team:
 Jericho Dinozi and Nobert Siemens.
@@ -131,5 +137,3 @@ Made references to and(or) made use of varying resources :
 Andrew Etter's Modern Technical Writing to implement appropriate techniques for structuring and creating tangible README files.
 Implemented some generative AI tools to clarify some syntax and ensure grammatical accuracy.
 
-## Conclusion
-In conclusion , I believe making a README is not just important but necessary for any good project it helps keep information readily available for any audience , provides essential documentation and can be easily customized by multiple parties and taking advantage of this via light weight markup tools as mentioned. Additionally  , the resume and site generated were made easier by looking at documentation that exists because of those who came before me and were willing to take note of their procedures 
