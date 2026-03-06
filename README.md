@@ -106,16 +106,16 @@ While working on my Pelican site , I frequently needed to effect any changes I m
    You can do so by adding two asterisk keys one at the start and at the end of the text you want to italicize like so :`*"text"*` and you should end up with this on your actual markdown preview : *Italics*
 
 - How do I make words BOLD in my README.md file ?
-   You can handle changing text to Bold by making use of a double asterisk combo before and after the word like so `**"text"**` should end up with this in your actual markdown : **BOLD**
+    You can handle changing text to Bold by making use of a double asterisk combo before and after the word like so `**"text"**` should end up with this in your actual markdown : **BOLD**
 
 - How do I add Links to my README.md file ?
-   You can handle adding links to websites or even to other points in your same markdown file by using a [] then () bracket combination , you should then end up in a setup like so : [Link Name](https://music.youtube.com/watch?v=kNpTKgNQNpI&si=t3BT_0KOauxxFg9r), if you wanted to link sections of your readme , you can add the section name within [] and then within your () add a hashtag before the section name but this time all in lowercase  . It should look like this if implemented appropriately  [FAQs](#frequently-asked-questions)
+    You can handle adding links to websites or even to other points in your same markdown file by using a [] then () bracket combination , you should then end up in a setup like so : [Link Name](https://music.youtube.com/watch?v=kNpTKgNQNpI&si=t3BT_0KOauxxFg9r), if you wanted to link sections of your readme , you can add the section name within [] and then within your () add a hashtag before the section name but this time all in lowercase  . It should look like this if implemented appropriately  [FAQs](#frequently-asked-questions)
 
 - Why do I even bother with a markup language over a regular text file ?
-   You should bother and even seek out markup languages over regular text files because they make it a lot easier for you to express your opinions and images as well as ease of editing and replication over multiple versions.
+    You should bother and even seek out markup languages over regular text files because they make it a lot easier for you to express your opinions and images as well as ease of editing and replication over multiple versions.
 
 - How do I know if I have installed `pip` ? 
-   You can check by running `pip --version` if a number is returned you are fine , if not you would need to install it via `python -m ensurepip --upgrade` , although this will not work all the time so if that does not work for you you can proceed with `python -m pip install --upgrade pip`
+    You can check by running `pip --version` if a number is returned you are fine , if not you would need to install it via `python -m ensurepip --upgrade` , although this will not work all the time so if that does not work for you you can proceed with `python -m pip install --upgrade pip`
 
 ## My Implementation Of Andrew Etters Principles for Modern Technical Writing 
 - I made thje decision to utilize a lightweight markup language and did so as Andrew argues theyu are the preferred form to handle issues like portability , raw level readability and documentation easy to version control 
