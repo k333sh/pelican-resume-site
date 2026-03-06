@@ -2,7 +2,6 @@ AUTHOR = 'Iteoluwakisi'
 SITENAME = 'Oyewusi-Iteoluwakisis-A2-Site'
 SITEURL = "https://k333sh.github.io/pelican-resume-site"
 RELATIVE_URLS = True
-THEME = "theme/bluegrasshopperTheme"
 PATH = "content"
 
 TIMEZONE = 'America/Winnipeg'
